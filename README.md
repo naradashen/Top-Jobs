@@ -23,7 +23,7 @@ This project is a robust, OCR-enabled job scraper built in Python for extracting
 
 ```bash
 pip3 install selenium httpx beautifulsoup4 pytesseract Pillow
-
+```
 
 ---
 
@@ -33,6 +33,7 @@ pip3 install selenium httpx beautifulsoup4 pytesseract Pillow
 ```bash
 git clone https://github.com/naradashen/Top-Jobs.git
 cd Top-Jobs
+```
 
 ---
 
@@ -41,3 +42,4 @@ cd Top-Jobs
 ```bash
 python3 ocr.py (slow)
 python3 main.py (fast)
+```
