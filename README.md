@@ -1,7 +1,43 @@
-# Top-Jobs
-This is a web scraper made by me using selenium. This scrapes every detail in the website using OCR techniques.
+# 🔍 TopJobs.lk Job Scraper
 
-## Usage
-Run 'ocr.py' to run the scraper headless mode. You can also use other python scripts to run the scraper to extract specific endpoints such as 'junior.py' to extract only junior and entry level jobs.
+This project is a robust, OCR-enabled job scraper built in Python for extracting detailed job postings from [TopJobs.lk](https://www.topjobs.lk). It uses **Selenium**, **BeautifulSoup**, and **Tesseract OCR** to fetch and process both text and image-based job data, storing it in a structured JSON format.
 
-scrapy runspider spiders/topjobs_spider.py -a num_pages=5 -L INFO
+---
+
+## 📌 Features
+
+- ✅ Headless Chrome automation via Selenium
+- ✅ Intelligent job metadata parsing
+- ✅ OCR support for embedded images (job ads)
+- ✅ Timestamped logging for process tracking
+- ✅ Fault-tolerant and resilient scraping
+- ✅ Real-time JSON appending and persistence
+
+---
+
+## ⚙️ Requirements
+
+- Python 3.7+
+- Google Chrome + chromedriver (compatible version)
+- Tesseract OCR installed
+
+```bash
+pip3 install selenium httpx beautifulsoup4 pytesseract Pillow
+
+
+---
+
+## 🛠️ Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/naradashen/Top-Jobs.git
+cd Top-Jobs
+
+---
+
+## 🚀 Usage
+
+```bash
+python3 ocr.py (slow)
+python3 main.py (fast)
